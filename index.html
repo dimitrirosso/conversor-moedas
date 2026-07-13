@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/moeda-de-dolar.png" type="image/x-icon">
+    <title>Conversor moedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <div class="conversao">
+            <div class="valor">
+                <p>VALOR</p>
+                <input type="number" class="numero" placeholder="Ex: 100,00">
+            </div>
+
+            <div class="moeda">
+                <p>MOEDA</p>
+                <select class="paises">
+                    <option value="dolar">Dólar americano</option>
+                    <option value="peso">Peso argentino</option>
+                    <option value="kwanzas">Kwanzas</option>
+                    <option value="euro">Euro</option>
+                    <option value="libra">Libra</option>
+                </select>
+            </div>
+
+            <button class="botao">Converter em reais</button>
+        </div>
+
+        <div class="resultado">
+            <p class="texto-resultado"></p>
+            <h1 class="resultado-final"></h1>
+        </div>
+    </section>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
