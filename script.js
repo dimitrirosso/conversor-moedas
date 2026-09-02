@@ -46,6 +46,7 @@ botao.addEventListener('click', ()=> {
     }
 })
 
+
 paises.addEventListener('click', ()=>{
 
       if(Number(numero.value) < 0){
